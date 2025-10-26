@@ -1,4 +1,4 @@
-replicaCount: 3
+replicaCount: 1
 
 image:
   repository: docker.io/rojassluu/usuarios-service
@@ -7,12 +7,7 @@ image:
 
 service:
   type: ClusterIP
-  port: 8088
-
-service:
-  type: NodePort
-  port: 8088
-  nodePort: 30088  # Puedes elegir un puerto entre 30000–32767
+  port: 8089
 
 resources:
   limits:
