@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/rojassluu/usuarios-service
+  repository: docker.io/rojassluu/usuarios-servicexx
   pullPolicy: Always
   tag: "latest"
 
